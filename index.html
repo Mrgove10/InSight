@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>InSight</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!--intro-->
+			<section>
+				<h2>InSight : Interior Exploration using Seismic Investigations, Geodesy and Heat Transport</h2><br>
+				Adrien RICHARD<br>
+				Bachelor 2 EPSI Grenoble<br>
+				09 Aout 2019<br>
+			</section>
+			<!--Sommaire-->
+			<section>
+				<section>
+					<h2>Sommaire</h2><br>
+				</section>
+				<section>
+					Mars
+				</section>
+				<section>
+					historique des missison marsine
+				</section>
+				<section>
+					but de insight<br>
+					<ul>
+						<li>pourquoi il en faut un de plus ?</li>
+						<li>les instruments de insight</li>
+					</ul>
+				</section>
+				<section>
+					se que cela va nous apporté, meilleur connaisance en mars mais comment?
+				</section>
+			</section>
+			<!--Mars-->
+			<section>
+				<img src="media/mars globe.jpg" height="350px"><br>
+				<ul>
+					<li>Voyage : environ 220 ~ 230 jours</li>
+					<li>Vitesse de la lumiere : 8~9 minutes</li>
+					<li>Taille : 50% du diametre de la terre</li>
+				</ul>
+			</section>
+			<!--mars and nasa-->
+			<section>
+				<section>
+					<h3>Nasa et mars</h3>
+				</section>
+				<section>
+					<h3>Mariner</h3>
+					1964, sonde spacial<br>
+					<img src="media/mariner.jfif" style="height :400px">
+				</section>
+				<section>
+					<h3>Viking</h3>
+					1975, sonde marsienne<br>
+					<img src="media/viking.jfif" style="height :400px">
+				</section>
+				<section>
+					<h3>Pathfinder</h3>
+					1996, robot<br>
+					<img src="media/pathfinder.jfif" style="height :400px">
+				</section>
+				<section>
+					<h3>Peonix</h3>
+					2003, sonde marsienne<br>
+					<img src="media/pheonix.jfif" style="height :400px">
+				</section>
+				<section>
+					<h3>Opportinity</h3>
+					2003, robot<br>
+					<img src="media/opportunity.jfif" style="height :400px">
+				</section>
+				<section>
+					<h3>Curiosity</h3>
+					2011, robot<br>
+					<img src="media/curiosity.jfif" style="height :400px">
+				</section>
+			</section>
+			<!--insight-->
+			<section>
+				<section>
+					<h3>InSight</h3>
+					Exploration interne par les sondages sismiques, la géodésie et les flux thermique
+					<aside class="notes">
+						géodésie : la science de la formation des planettes
+					</aside>
+				</section>
+				<section>
+					<img src="media/nasa.png" style="height :250px"><img src="media/jpl.png" style="height :250px">
+					<aside class="notes">
+						Jet propulsion laboratory
+					</aside>
+				</section>
+			</section>
+			<!--instruments-->
+			<section>
+				<section>
+					<h3>instruments</h3>
+					<img src="media/instruments.jpg">
+				</section>
+				<section style="display:flex">
+					<div style="justify-content:space-around">
+						<h1>SEIS</h1><br>
+						<img src="https://i.imgur.com/7phH1qZ.png">
+						<ul>
+							<li>seismometre</li>
+							<li>donne des indications sur l'interieure de la planette</li>
+							<li>Extremment sensible</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h1>HP3</h1><br>
+					<ul>
+						<li>Mesure les mouvement de temperature interne a mars</li>
+						<li>Premier instrument a creuser aussi profond (5 metres)</li>
+						<li>Actuemlement en pause*</li>
+					</ul>
+					<br>
+					<br>
+					<small>*5 Mars 2019</small>
+				</section>
+				<section>
+					<h1>RISE</h1><br>
+					<ul>
+						<li>Mesure les vibrations des poles grace a la gravité du solei</li>
+						<li>Donne des indications sur le centre de mars</li>
+					</ul>
+				</section>
+			</section>
+			<!--Geeky stats-->
+			<section>
+				<table style="width:100%">
+					<tr>
+						<th>Instrument</th>
+						<th>Puissance</th>
+						<th>Données</th>
+					</tr>
+					<tr>
+						<td>SEIS</td>
+						<td>8.5w </td>
+						<td>38 megabits / jours</td>
+					</tr>
+					<tr>
+						<td>HP3</td>
+						<td>2w (creuse)</td>
+						<td>350 megabits / mission</td>
+					</tr>
+					<tr>
+						<td>RISE</td>
+						<td>78 w (2h par jour)</td>
+						<td>N/C</td>
+					</tr>
+				</table>
+			</section>
+			<!--Video of the operations-->
+			<section>
+				<section>
+					<img src="media/1 cruise.gif" style="height:500px">
+				</section>
+				<section>
+					<video height="500" >
+						<source data-src="media/2 insight landing.webm" type="video/webm" />
+					</video>
+				</section>
+				<section>
+					<video  height="500" >
+						<source data-src="media/3 insight solaire.mp4" type="video/mp4" />
+					</video>
+				</section>
+				<section>
+					<video  height="500" >
+						<source data-src="media/4 insight SEIS 1.mp4" type="video/mp4" />
+					</video>
+				</section>
+				<section>
+					<video height="500" >
+						<source data-src="media/5 insight SEIS 2.mp4" type="video/mp4" />
+					</video>
+				</section>
+				<section>
+					<video  height="500" >
+						<source data-src="media/6 insight hp3 deploy.mp4" type="video/mp4" />
+					</video>
+					<aside class="notes">
+						RISE ne requiere pa de deploiement , directment sur la sonde
+					</aside>
+				</section>
+			</section>
+			<!--Ouverture-->
+			<section>
+				<h3>Pret a tous plaquer pour habité sur mars ?</h3>
+			</section>
+			<!--Sources-->
+			<section>
+				<h3>Sources Images</h3>
+				<ul>
+					<li>https://mars.nasa.gov/</li>
+					<li>https://nasa.gov/</li>
+					<li>https://jpl.nasa.gov/</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.configure({
+			slideNumber: 'c/t'
+		});
+		Reveal.initialize({
+
+			//transition style
+			transition: 'fade',
+			transitionSpeed: 'fast',
+			// autoplays video content
+			autoPlayMedia: true,
+
+			// Parallax background image
+			parallaxBackgroundImage: 'media/pano-adjuste.jpg', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+			// Parallax background size
+			parallaxBackgroundSize: '13726px 3008px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+			// Number of pixels to move the parallax background per slide
+			// - Calculated automatically unless specified
+			// - Set to 0 to disable movement along an axis
+			parallaxBackgroundHorizontal: 200,
+			parallaxBackgroundVertical: 50,
+
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
